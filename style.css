@@ -89,6 +89,7 @@ header nav p {
 }
 
 .pacotes .card-image {
+    display: flex;
     width: 250px;
     height: 200px;
     border-radius: 24px 0 0 0;
@@ -100,6 +101,21 @@ header nav p {
     background: white;
     border-radius: 24px 0;
     margin: 25px;
-    position: relative
-    ;
+    position: relative;
+    
+}
+
+.pacotes .card-image1 {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+
+}
+.pacotes .card-image2 {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+
 }
