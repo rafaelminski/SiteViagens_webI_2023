@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site IFPR Viagens</title>
+     <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -46,7 +47,9 @@
                 <div class="card-content">
                     <h1>Passeio de Elefante</h1>
                     <ul>
-                        <li><i></i>Alegria</li>
+                        <li><i data-feather="smile"></i>Alegria</li>
+                        <li><i data-feather="map"></i>Rotas</li>
+                        <li><i data-feather="coffee"></i>Café Grátis</li>
                     </ul>
                 </div>
             </div>
@@ -61,7 +64,9 @@
                 <div class="card-content">
                     <h1>Passeio de Barco</h1>
                     <ul>
-                        <li><i></i>Alegria</li>
+                       <li><i data-feather="smile"></i>Alegria</li>
+                        <li><i data-feather="wifi"></i>Wifi Grátis</li>
+                        <li><i data-feather="cast"></i>Multimedia</li>
                     </ul>
                 </div>
             </div>
@@ -76,7 +81,9 @@
                 <div class="card-content">
                     <h1>Passeio histórico</h1>
                     <ul>
-                        <li><i></i>Alegria</li>
+                        <li><i data-feather="smile"></i>Alegria</li>
+                        <li><i data-feather="wifi"></i>Wifi Grátis</li>
+                        <li><i data-feather="cast"></i>Multimedia</li>
                     </ul>
                 </div>
             </div>
@@ -85,5 +92,36 @@
 
 
     </section>
+    <section id="servicos" class="servicos">
+        <h1 class="servicos-title">Serviços</h1>
+        <div class="servicos-cards">
+            <div class="card">
+                <i data-feather="map"></i>
+                <div class="card-content">
+                    <h3>Tours Guiados</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, nesciunt magnam, sunt perferendis velit minus aliquam libero nostrum laboriosam in perspiciatis, repellendus fuga impedit exercitationem. Ullam quas fugit sunt nemo.</p>
+                </div>
+                <button>Saiba mais</button>
+                <div class="card">
+                    <i data-feather="camera"></i>
+                    <div class="card-content">
+                        <h3>Tours Guiados</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae maiores unde vitae aspernatur laboriosam numquam.</p>
+                    </div>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="card">
+                    <i data-feather="navigation"></i>
+                    <div class="card-content">
+                        <h3>Tours Guiados</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae maiores unde vitae aspernatur laboriosam numquam.</p>
+                    </div>
+                    <button>Saiba Mais</button>
+                </div>
+            </div>
+    </section>
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
