@@ -239,3 +239,55 @@ header nav p {
     text-align: center;
     
 }
+
+.contatos {
+    height: 650px;
+    background: #a0b19f;
+}
+
+.contatos .nome {
+    padding: 15px;
+    text-align: center;
+    margin: 35px 0;
+
+}
+
+.contatos .card {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.contatos .card svg {
+    width: 30px;
+    height: 60px;
+    margin: 20px;
+}
+
+.contatos .card .card-content {
+    height: 180px;
+    text-align: center;
+}
+
+.contatos .mail svg {
+    color: #f19b39;
+}
+
+.contatos .facebook svg {
+    color: #1d61dd;
+}
+
+.contatos .twitter svg {
+    color: aqua;
+}
+
+.contatos .instagram svg {
+    color: #f19b39;
+}
+
+.contatos .phone svg {
+    color: white;
+}
