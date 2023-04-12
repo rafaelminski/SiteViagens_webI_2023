@@ -173,7 +173,7 @@ header nav p {
     top: 160px;
     background: #1d61dd;
     border-radius: 8px 0 0 8px;
-    padding: 0.5px 10px;
+    padding: 0px 10px;
 }
 
 .pacotes .card .card-tag p {
@@ -181,4 +181,61 @@ header nav p {
     font-size: 0.8rem;
     color: white;
     font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards {
+    margin-top: 25px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.servicos .card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.servicos .card svg {
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+
+}
+
+.servicos .card svg:hover {
+    stroke: #1d61dd;
+    transform: scale(1.1);
+
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+}
+
+.servicos .card p {
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+
+}
+
+.servicos .card .card-content {
+    height: 180px;
+    text-align: center;
+    
 }
