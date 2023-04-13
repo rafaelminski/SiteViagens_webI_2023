@@ -209,7 +209,6 @@ header nav p {
     align-items: center;
     margin: 0 20px;
 }
-
 .servicos .card svg {
     width: 60px;
     height: 60px;
@@ -242,8 +241,10 @@ header nav p {
 
 .contatos {
     height: 650px;
-    background: #a0b19f;
+    background: #242f42;
 }
+
+
 
 .contatos .nome {
     padding: 15px;
@@ -252,28 +253,59 @@ header nav p {
 
 }
 
-.contatos .card {
-    margin-top: 25px;
+.contatos .mail{
+    width: 250px;
     display: flex;
-    max-width: 950px;
+    flex-direction: column;
     justify-content: center;
-    margin: auto;
-
+    align-items: center;
+    margin: 0 20px;
 }
 
-.contatos .card svg {
-    width: 30px;
-    height: 60px;
-    margin: 20px;
+.contatos .facebook {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
 }
 
-.contatos .card .card-content {
-    height: 180px;
-    text-align: center;
+.contatos .twitter{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .instagram{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .phone{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.contatos .phone p {
+    text-align:center;
 }
 
 .contatos .mail svg {
     color: #f19b39;
+    
+    
 }
 
 .contatos .facebook svg {
