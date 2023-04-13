@@ -298,8 +298,9 @@ header nav p {
     margin: 0 20px;
 }
 
-.contatos .phone p {
-    text-align:center;
+.contatos .contatos-cards p {
+    text-align: end;
+    color: white;
 }
 
 .contatos .mail svg {
