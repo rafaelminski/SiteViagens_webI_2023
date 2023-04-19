@@ -260,6 +260,7 @@ header nav p {
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+    color: rgb(135, 199, 199);
 }
 
 .contatos .facebook {
@@ -269,6 +270,7 @@ header nav p {
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+    color: rgb(135, 199, 199);
 }
 
 .contatos .twitter{
@@ -278,6 +280,7 @@ header nav p {
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+    color: rgb(135, 199, 199);
 }
 
 .contatos .instagram{
@@ -287,6 +290,7 @@ header nav p {
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+    color: rgb(135, 199, 199);
 }
 
 .contatos .phone{
@@ -296,6 +300,7 @@ header nav p {
     justify-content: center;
     align-items: center;
     margin: 0 20px;
+    color: rgb(135, 199, 199);
 }
 
 .contatos .contatos-cards p {
